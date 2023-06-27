@@ -80,11 +80,11 @@ $aProductos[] = array("nombre" => "Monitor",
                     </tr>
                     
                 <?php 
-            
-                } ?>
-
-                  
+             $subtotal += $aProductos[$contador]["precio"];
+            }
+    ?>
                 </table>
+                <h2>El subtotal es: $<?php echo $subtotal; ?></h2>
             </div>
         </div>
 

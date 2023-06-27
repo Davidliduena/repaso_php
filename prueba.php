@@ -6,8 +6,8 @@ error_reporting(E_ALL);
 
 //if ternario
 
-$edad = 17;
+/* $edad = 17;
 
 echo $edad>=18? "es mayor de edad" : "es menor de edad";
-
+ */
 ?>
